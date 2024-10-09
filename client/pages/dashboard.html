@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1>Welcome User1</h1>
+    <button id="liveFeed">Use Live Feed</button>
+    <button id="uploadVideo">Upload Sample Video</button>
+
+    <form id="uploadForm" style="display:none">
+        <input type="file" id="videoFile" accept="video/*">
+        <button type="submit">Upload</button>
+    </form>
+
+    <video id="videoStream" autoplay style="display:none"></video>
+
+    <script src="../js/dashboard.js"></script>
+</body>
+</html>
